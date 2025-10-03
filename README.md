@@ -1,16 +1,16 @@
 # Compilador Básico em Java
 
-## 📌 Descrição
+## Descrição
 Este projeto implementa um compilador simples em Java que transforma expressões matemáticas básicas em bytecode e as executa em uma máquina virtual stack-based.
 
-## 🚀 Funcionalidades
+## Funcionalidades
 - Lexer (analisador léxico)
 - Parser (analisador sintático)
 - AST (árvore sintática abstrata)
 - Gerador de Bytecode
 - Máquina Virtual
 
-## 🛠 Arquitetura
+## Arquitetura
 ```
 program.toy -> Lexer -> Parser -> AST -> CodeGenerator -> Bytecode -> VirtualMachine -> Resultado
 ```
